@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Megrim&family=Nova+Cut&display=swap');
+
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+ }
+
+ /*___________Banner___________ */
+.banner{ 
+    height: 230px;
+    width: 100%;
+    background-image:url("src/assets/img/Banner.png");
+    background-repeat: no-repeat;
+    justify-content: center;
+    display:flex;
+    
+    
+  }
+    
+  .texto-banner p,a {
+    color:white;
+    font-family: 'Gemunu Libre',sans-serif;
+    font-size:  25px;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .texto-banner h2{
+    color: #fffa7b;
+    font-size: 50px;
+    font-family: 'Gemunu Libre',sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .posicao-texto{
+    justify-content:center;
+    align-items:center;
+  }
+   
+  /* __________Body_____________*/
+  
+  body{
+    background-color:#FFFBA6;
+    align-items: center;
+  }
+  
+  .conteudo-body {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+  }
+  
+  .conteudo-body h2{  
+    font-family: 'Nova Cut', cursive;
+    font-size: 30px;
+    color: #BF0505;
+  }
+  .conteudo-body p{
+    font-family:'Gemunu libre', sans-serif;
+    font-size: 25px;
+  }
+  
+  .o-que-e{
+    margin-top: 15px;
+    text-align: justify;
+  }
+  
+  .como-jogar{
+    margin-top: 15px;
+    text-align: justify;
+  }
+  
+  .baixar img {
+   size:50px;
+   
+  }
+  
+  .baixar{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: max-content;
+  }
+  
+  
+  .forum{
+    width: max-content;
+    margin-top: 15px;
+    margin-left: 5px;
+   }
+  
+  .lancamentos-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 0;
+    width: max-content;
+  }
+  
+  .lancamentos-container img{
+     display: flexbox;
+     width: 300px;
+     height: 300px;
+     padding: 8px;
+  }
+  
+  .lojinha{
+    margin-bottom: 15px;
+    font-family: 'Nova Cut', cursive;
+    font-size: 30px;
+    color: #BF0505;
+    justify-content: space-between;
+    width: fit-content;
+   }
+  
+  .lojinha img {
+    padding: 8px;
+  }
+  
+  .ilustracoes{
+    display: flex;
+  }
+  
+  .livros{  
+    width: max-content;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  
+  .livros p, h3{
+    color: black;
+    font-family:'Gemunu libre', sans-serif;
+    font-size: 25px;
+  }
+  
+  .livros h2{
+    color: #BF0505;
+    font-family: 'Nova Cut', cursive;
+    font-size: 30px;
+  }
+  
+  .livrosVenda img{
+    align-content: center;
+  }
+  
+  
+  /*___Configuração para tela entre 769px e 1200px (tablet)_________*/
+   /*___ Acima de 1200px é considerado desktop, portanto segue a configuração já feita acima_____*/
+   
+   @media screen and (max-width:1200px) {
+    .container-grid{
+      width:90%;
+    }
+    .menu a{
+      font-size:15px;
+      background-size: 70%;
+    }
+ 
+      .logo-botao{
+      width:50%;
+      height: 50%;
+    }
+ 
+      
+   
+  /*___Configuração para tela de até 768px (celular)_________*/
+  @media screen and (max-width:768px) {
+  
+ .barras{
+   display: inline-block;
+   width: 45px;
+  
+ }
+ 
+ .menu{
+   display: none;
+   flex-direction: column;
+   width: 150px;
+   height: 150px;
+   position: absolute;
+   background-color: #FFFBA6;
+   
+   
+ }
+ 
+ .menu a{
+   background-image: none;
+   color: #BF0505;
+   padding: 5px;
+   margin-top: 10px; 
+   margin-bottom: 10px;
+ }
+ 
+ .menu-ativo{
+   display: flex;
+   position: relative; 
+ }
+ 
+ 
+ .blocoInfos a {
+     font-size: 15px;
+ }
+ 
+ .lancamentos-container >img {
+   flex-direction:column;
+   flex-wrap: wrap;
+ }
+ 
+ .links-redes{
+ width: fit-content;
+ height: fit-content;
+ 
+ }
+ 
+ 
+  .assinatura {
+   position: relative;
+ }
+}
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Megrim&family=Nova+Cut&display=swap');
+
+*{
+  /*O asterisco abaixo indica que as configurações nele contidas valem para todo o site */
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    /* o box sizing zera as configuracoes pre definidas dos box do site, assim eu mesma irei configura-los*/
+ }
+ 
+
+ /* ---- FORMULÁRIO -----  */
+ body{
+    background-color:#FFFBA6;
+    align-items: center;
+  }
+
+form{
+    font-family: 'Gemunu libre', sans-serif;      
+ 
+  }
+ 
+  form label{
+     /* display: block;*/
+      margin: 10px;
+      font-size: 25px;
+    
+  }
+ 
+  form input{
+      /*display: block;*/
+      margin-bottom: 20px;
+      padding: 5px 15px;
+      width: 50%;
+  }
+ 
+  .entrar{
+      width: 20%;
+      background: #C4C4C4;
+      font-weight: bold ;
+      font-size: 30px;
+      align-content: center;
+      border:none;
+      transition: 1s ;
+      margin:10px;
+  }
+  
+  .entrar:hover{
+      background: #bd0606;
+      transition: 0.8s;
+  }
+ 
+  fieldset{
+      background-color:  #fffa7b;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 400px 30px 400px;
+  
+  }
