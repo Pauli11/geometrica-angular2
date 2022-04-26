@@ -1,10 +1,10 @@
 
-$(document).ready(function() {
+//$(document).ready(function() {
 
-    $("#barras").click(function() {
-       $("#menu").toggleClass("menu-ativo")
+ //   $("#barras").click(function() {
+ //      $("#menu").toggleClass("menu-ativo")
   
-      })
+ //     })
   
        /* o mesmo que o codigo acima, mas com mais linhas de código
         if ($("#menu").hasClass("#menu-ativo")) {
@@ -18,11 +18,11 @@ $(document).ready(function() {
   
   
   
-  let email = document.getElementById ("email");
+ // let email = document.getElementById ("email");
   
-  function enviarEmail() {
-      let emailDigitado = email.value;   
-      console.log(emailDigitado);
-    }
+ // function enviarEmail() {
+//      let emailDigitado = email.value;   
+//      console.log(emailDigitado);
+//    }
 
-})
+//})

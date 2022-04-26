@@ -1,1 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Megrim&family=Nova+Cut&display=swap');
+
+h2{
+  margin-bottom: 15px;
+  font-family: 'Nova Cut', cursive;
+  font-size: 30px;
+  color: #BF0505;
+}
+
+p{
+  color: black;
+    font-family:'Gemunu libre', sans-serif;
+    font-size: 25px;
+}
+
+.container{
+  width: 90%;
+  align-content: center;
+}
+
+@media screen and (max-width:1200px) {
+    .container-grid{
+      width:90%;
+    }
+    .menu a{
+      font-size:15px;
+      background-size: 70%;
+    }
+ 
+      .logo-botao{
+      width:50%;
+      height: 50%;
+    }
+ 
+    .barras{
+      display: none;
+      width: 30px;
+      height: 30px;
+      padding: 8px;
+    
+    }
+   
+  
+  @media screen and (max-width:768px) {
+  
+ .barras{
+   display: inline-block;
+   width: 45px;
+  
+ }
+ 
+ .menu{
+   display: none;
+   flex-direction: column;
+   width: 150px;
+   height: 150px;
+   position: absolute;
+   background-color: #FFFBA6;
+   
+   
+ }
+ 
+ .menu a{
+   background-image: none;
+   color: #BF0505;
+   padding: 5px;
+   margin-top: 10px; 
+   margin-bottom: 10px;
+ }
+ 
+ .menu-ativo{
+   display: flex;
+   position: relative; 
+ }
+ 
+ 
+ .blocoInfos a {
+     font-size: 15px;
+ }
+ 
+ .lancamentos-container >img {
+   flex-direction:column;
+   flex-wrap: wrap;
+ }
+ 
+ .links-redes{
+ width: fit-content;
+ height: fit-content;
+ 
+ }
+  
+  .assinatura {
+   position: relative;
+ }
+}
+
+    }

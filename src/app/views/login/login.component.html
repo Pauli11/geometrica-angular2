@@ -1,13 +1,15 @@
 <main>
-    <form #userForm="ngForm" (ngSubmit)="onSubmit()">
-    
-    <label for="email"> E-mail: </label> 
-    <input type="email" id="email" name="email" [(ngModel)]= "userModel.email" >
+    <fieldset> 
+        <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+        
+            <label for="email"> E-mail: </label> 
+            <input type="email" id="email" name="email" [(ngModel)]= "userModel.email" >
+            <br>
+            <label for= "senha"> Senha: </label>
+            <input type="password" id= "senha" name="senha" [(ngModel)] = "userModel.senha" >
 
-    <label for= "senha"> Senha: </label>
-    <input type="password" id= "senha" name="senha" [(ngModel)] = "userModel.senha" >
+            <button type="submit">Enviar</button>
 
-    <button type="submit">Enviar</button>
-
-    </form>
+        </form>
+    </fieldset>
 </main>

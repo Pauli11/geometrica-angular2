@@ -27,7 +27,7 @@ footer{
      justify-content: space-between;
      width: 100%;
      height: 100%;
-     margin: auto;
+     margin: 0 60;
      margin-bottom: 0px;
      flex-wrap:wrap;
       
@@ -38,6 +38,7 @@ footer{
    
     .rodape a{
       color: black;
+      
     }
    
     .titulo-redes p{
@@ -104,9 +105,7 @@ footer{
    
    }
    
-   .posicionamento-header{
-     position: relative;
-   }
+ 
    
    /*___Configuração para tela entre 769px e 1200px (tablet)_________*/
    /*___ Acima de 1200px é considerado desktop, portanto segue a configuração já feita acima_____*/

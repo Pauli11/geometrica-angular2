@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Megrim&family=Nova+Cut&display=swap');
-
 *{
-  /*O asterisco abaixo indica que as configurações nele contidas valem para todo o site */
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
-    /* o box sizing zera as configuracoes pre definidas dos box do site, assim eu mesma irei configura-los*/
- }
+  }
+
 /*_____________Header____________*/
-.container{              /* diferente do original*/
+ .container{              
   width: 100%;
   height: 100%;
   margin: auto;
@@ -28,14 +25,18 @@ header {
   margin: 0 auto;
 }
 
-.logo-botao img{       /* diferente do original*/
-  width:520px;
+.logo-botao img{   
+  width:520px;     
+}
+
+.nav{
+ margin-left: 30px ;
 }
 
 .menu a {
   width:100%;
   margin-top: auto;
-  margin-left: 25px;  /* diferente do original*/
+  margin-left: 25px;   
   position:relative;
   color:#fdf973fa;
   text-decoration: none;  
@@ -49,85 +50,9 @@ header {
   background-size: 65px;  
   padding:19px; 
   
-}
+} 
 
-/*___Configuração para tela entre 769px e 1200px (tablet)_________*/
-   /*___ Acima de 1200px é considerado desktop, portanto segue a configuração já feita acima_____*/
-   
-   @media screen and (max-width:1200px) {
-    .container-grid{
-      width:90%;
-    }
-    .menu a{
-      font-size:15px;
-      background-size: 70%;
-    }
- 
-      .logo-botao{
-      width:50%;
-      height: 50%;
-    }
- 
-    .barras{
-      display: none;
-      width: 30px;
-      height: 30px;
-      padding: 8px;
+.barras{
+  display: none;
+}
     
-    }
-   
-  /*___Configuração para tela de até 768px (celular)_________*/
-  @media screen and (max-width:768px) {
-  
- .barras{
-   display: inline-block;
-   width: 45px;
-  
- }
- 
- .menu{
-   display: none;
-   flex-direction: column;
-   width: 150px;
-   height: 150px;
-   position: absolute;
-   background-color: #FFFBA6;
-   
-   
- }
- 
- .menu a{
-   background-image: none;
-   color: #BF0505;
-   padding: 5px;
-   margin-top: 10px; 
-   margin-bottom: 10px;
- }
- 
- .menu-ativo{
-   display: flex;
-   position: relative; 
- }
- 
- 
- .blocoInfos a {
-     font-size: 15px;
- }
- 
- .lancamentos-container >img {
-   flex-direction:column;
-   flex-wrap: wrap;
- }
- 
- .links-redes{
- width: fit-content;
- height: fit-content;
- 
- }
- 
- 
-  .assinatura {
-   position: relative;
- }
-}
-}
