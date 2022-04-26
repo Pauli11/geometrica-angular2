@@ -1,6 +1,7 @@
 <main>
     <fieldset> 
         <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+            <!--a # aqui funciona como o  "class" no html sem angular,no caso, o nome desse formulario é #userForm, poderia ser qq nome, tipo #formularioLogin-->
         
             <label for="email"> E-mail: </label> 
             <input type="email" id="email" name="email" [(ngModel)]= "userModel.email" >
