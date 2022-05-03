@@ -13,8 +13,9 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  userModel= new User("paula@email.com","123testando")
+  userModel= new User("", "")
   onSubmit(){
     console.log(this.userModel)
   }
+  //Essa função "onSubmit" é a que faz o evento onSubmit funcionar
 }
