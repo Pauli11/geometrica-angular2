@@ -1,0 +1,33 @@
+{
+  "Usuários": [
+    {
+      "id": 1,
+      "email": "paula@email.com",
+      "senha: ": "paula321"
+    },
+    {
+      "id": 2,
+      "email": "sasha@email.com",
+      "senha": "sasha123"
+    },
+    {
+     "id": 3,
+     "email":"sanduba@email.com",
+     "senha":"sanduba123"
+
+    },
+    {
+      "id": 4,
+      "email":"soh-eu@gmail.com",
+      "senha":"eusoh1234" 
+     },
+     {
+      "id": 5,
+      "email":"programadora2022@email.com",
+      "senha":""
+ 
+     }
+
+    
+  ]
+}
