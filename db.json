@@ -1,33 +1,40 @@
 {
-  "Usuários": [
+  "livros": [
     {
       "id": 1,
-      "email": "paula@email.com",
-      "senha: ": "paula321"
+      "titulo": "Geometria oriental",
+      "imagem":  "assets/img/IMG1-ilustra_livro.jpg",
+      "descricao":"Aprenda a criar seus próprios padroes geométricos "
     },
     {
-      "id": 2,
-      "email": "sasha@email.com",
-      "senha": "sasha123"
-    },
-    {
-     "id": 3,
-     "email":"sanduba@email.com",
-     "senha":"sanduba123"
-
-    },
-    {
-      "id": 4,
-      "email":"soh-eu@gmail.com",
-      "senha":"eusoh1234" 
+    "id":2,
+    "titulo": "Padronagens aplicadas na decoração",
+    "imagem": "assets/img/IMG2-mandala-pintar.jpg ",
+    "descricao":"Decore sua casa com arte e estilo!"
      },
      {
-      "id": 5,
-      "email":"programadora2022@email.com",
-      "senha":""
- 
-     }
-
-    
+       "id":3,
+       "titulo": "Geométrica- origens",
+       "imagem":"assets/img/IMG3-ilustra_origens.jpg",
+       "descricao": "Conheça a história por trás do jogo"
+     },
+     {
+      "id": 4,
+      "titulo": "Geometria oriental",
+      "imagem":   "assets/img/IMG4-ilustra_livro.jpg",
+      "descricao":"Aprenda a criar seus próprios padroes geométricos "
+    },
+    {
+    "id":5,
+    "titulo": "Padronagens aplicadas na decoração",
+    "imagem": "assets/img/IMG5-mandala-pintar.jpg ",
+    "descricao":"Decore sua casa com arte e estilo!"
+     },
+     {
+       "id":6,
+       "titulo": "Geométrica- origens",
+       "imagem":"assets/img/IMG6-ilustra_origens.jpg",
+       "descricao": "Conheça a história por trás do jogo"
+     }    
   ]
 }

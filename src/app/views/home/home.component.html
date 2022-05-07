@@ -71,10 +71,10 @@
         <div class ="col-md-12 col-lg-4">    
             <section  id= listaLivros class= "livros">
                 <h2>Livros</h2>
-                <div class=livrosVenda>
-                    <h3>A geometria oriental - simbologias</h3>
-                    <img src="assets/img/ilustra_livro.jpg" alt="foto_livro"    width="210px" height="175px">
-                    <p>Aprofunde seu conhecimento sobre o tema</p>
+                <div *ngFor="let livros of listaLivros"  class= "livrosVenda">
+                    <h3>{{livros.titulo}}</h3>
+                    <img [src]= livros.imagem alt="foto_livro"    width="210px" height="175px">
+                    <p>{{livros.descricao}}</p>
                 </div>  
              </section> 
         </div>
