@@ -5,13 +5,14 @@
              -->
         
             <label for="email"> E-mail: </label> 
-            <input type="email" id="email" name="email" [(ngModel)]= "userModel.email" >
+            <input type="email" id="email" name="email" [(ngModel)]= "loginModel.email" >
             <br>
             <label for= "senha"> Senha: </label>
-            <input type="password" id= "senha" name="senha" [(ngModel)] = "userModel.senha" >
+            <input type="password" id= "password" name="password" [(ngModel)] = "loginModel.password" >
 
             <button type="submit">Entrar</button>
 
         </form>
+        <p id="mensagem" *ngIf=" mensagem != '' ">{{mensagem}}</p>
     </fieldset>
 </main>

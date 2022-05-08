@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Livros } from '../models/livros';
+import { livros } from '../models/livros';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,7 @@ export class LivrosService {
   url="http://localhost:3000/livros"
 
   constructor(private httpClient:HttpClient) { }
-  getLivros(): Observable<Livros[]> {
-    return this.httpClient.get<Livros[]>(this.url)
+  getLivros(): Observable<livros[]> {
+    return this.httpClient.get<livros[]>(this.url)
   }
 }
