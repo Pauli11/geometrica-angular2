@@ -3,16 +3,23 @@
         <form #userForm="ngForm" (ngSubmit)="onSubmit()">
             <!--a # aqui funciona como o  "class" no html sem angular,no caso, o nome desse formulario é #userForm, poderia ser qq nome, tipo #formularioLogin.  O ngSubmit é uma diretiva para o evento "submit" do botão de entrar
              -->
-        
+         <div class="form-group">
             <label for="email"> E-mail: </label> 
-            <input type="email" id="email" name="email" [(ngModel)]= "loginModel.email" >
+            <input type="email" id="email" name="email" placeholder="email" [(ngModel)]= "loginModel.email" required email  #email ="ngModel"  >
             <br>
             <label for= "senha"> Senha: </label>
-            <input type="password" id= "password" name="password" [(ngModel)] = "loginModel.password" >
+            <input type="password" id= "password" name="password" placeholder="senha" [(ngModel)] = "loginModel.password" required password  #password="ngModel">
 
-            <button type="submit" id="entrar">Entrar</button>
-
+            <button type="submit"  id="entrar" [disabled]="!userForm.valid">Entrar</button>
+            <p id="mensagem" *ngIf=" mensagem != '' ">{{mensagem}} ></p>
+            <div *ngIf="!email.valid && email.touched" class="alert danger-alert" role="alert">
+                <p class="aviso"> Email obrigatório </p>
+            </div>
+            <div *ngIf="!password.valid && password.touched" class="alert danger-alert" role="alert">
+               <p class="aviso"> Senha obrigatória </p>
+            </div>
+        </div>
         </form>
-        <p id="mensagem" *ngIf=" mensagem != '' ">{{mensagem}}</p>
+        
     </fieldset>
 </main>

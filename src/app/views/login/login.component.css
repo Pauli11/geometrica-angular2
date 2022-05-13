@@ -1,6 +1,9 @@
 
  /* ---- FORMULÁRIO -----  */
  
+/* .ng-invalid .ngtouched:not(form){
+     border: #bd0606;
+ }*/
 
 main{
     font-family: 'Gemunu libre', sans-serif; 
