@@ -1,3 +1,8 @@
+#Testando o site
+ Fiz o teste do site usando Maven,Junit, Eclipse.
+ Inseri as 3 senhas erradas e uma certa. O browser abriu conforme configurado, executou os comandos e apareceu corretamente as mensagens de senha incorreta, depois acessou a home perfeitamente.
+ Fiquei feliz com o aprendizado! :)
+
 # Geometrica2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
